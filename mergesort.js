@@ -9,9 +9,8 @@ function split(wholeArray) {
 
 function merge(firstArr, secondArr) {
   let sortedArr = [];
-  let length = firstArr.length + secondArr.length;
 
-  for (let i = 0; i < length; i++) {
+  while (firstArr.length || secondArr.length) {
     let firstNum = firstArr[0];
     let secondNum = secondArr[0];
 
