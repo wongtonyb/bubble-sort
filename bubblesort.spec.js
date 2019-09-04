@@ -20,11 +20,6 @@ describe('Bubble Sort', function() {
     ]);
   });
   beforeEach(function() {
-    // foo = {
-    //   swap: function(value) {
-    //     bar = value;
-    //   }
-    // };
     spyOn(window, 'swap').and.callThrough();
   });
   it('returns exact number of swaps for one complete for loop iteration', function() {
